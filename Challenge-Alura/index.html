@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Alura challenge</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagens/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="secao1">
+            <div class="container-caixa-texto">
+                <textarea placeholder="Digite seu texto" class="caixa__texto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="imagens/alerta.svg" alt="alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="container__botoes">
+                <input type="button" class="btn__criptografar" value="criptografar">
+                <input type="button" class="btn__descriptografar" value="descriptografar">
+            </div>
+        </section>
+        <section class="secao2">
+            <div class="container__imagen">
+                <img src="imagens/imagem.svg" alt="imagem boneco">
+            </div>
+            <div class="container__paragrafo">
+                <h3>Nenhuma mensagem <br> encontrada</h3>
+                <p>digite um texto que deseja criptografar ou <br> descriptografar.</p>
+            </div>
+            <div class="container__copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="container__resultado">
+                <p class="texto-resultado"></p>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
